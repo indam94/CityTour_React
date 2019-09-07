@@ -14,17 +14,21 @@ export default class Tour extends Component {
         });
     }
 
+    handleDelete = () => {
+
+    }
+
     render() {
 
-        console.log(this.props);
+        // console.log(this.props);
         const {id, city, img, name, info} = this.props.tour;
         const { removeTour } = this.props;
         // console.log({newYork});
         return (
             <article className='tour'>
                 <div className="img-container">
-                    <img src={img} alt="img of the tour"/>
-                    <span className="close-btn">
+                    <img src={img} alt="city tour"/>
+                    <span className="close-btn" onClick={()=>removeTour(id)}>
                         <i className="fas fa-window-close"/>
                     </span>
                 </div>
