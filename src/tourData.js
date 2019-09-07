@@ -2,7 +2,7 @@ export const tourData = [
   {
     id: 1,
     city: "new york",
-    img: "./img/newyork.jpeg",
+    img: './img/newyork.jpeg',
     name: "new york bridge tour",
     info:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, nam omnis error corrupti eum assumenda enim odit architecto corporis. Sequi"
